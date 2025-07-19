@@ -1,0 +1,21 @@
+# Node and dependencies
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.local
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

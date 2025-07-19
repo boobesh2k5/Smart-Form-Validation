@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📝 Task 4 - User Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 User Registration</h1>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" required />
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm">Confirm Password</label>
+        <input type="password" id="confirm" required />
+        <small class="error"></small>
+      </div>
+
+      <button type="submit">Register ✅</button>
+    </form>
+
+    <div class="result hidden animate">
+      🎉 <strong>Welcome, <span id="user-name"></span>!</strong> Your form has been submitted successfully.
+    </div>
+
+    <footer>
+      <p>© 2025 M. Boobeshwaran | Cognifyz Technologies</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
